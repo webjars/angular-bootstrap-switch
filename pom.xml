@@ -57,6 +57,16 @@
         <upstream.version>0.3.0-alpha.2</upstream.version>
         <upstream.url>https://raw.github.com/frapontillo/angular-bootstrap-switch/${upstream.version}/dist</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <requirejs>
+            {
+                "paths": {
+                    "angular-bootstrap-switch": "angular-bootstrap-switch"
+                },
+                "shim": {
+                    "angular-bootstrap-switch": ["angular", "bootstrap-switch"]
+                }
+            }
+        </requirejs>
     </properties>
     
     <build>
