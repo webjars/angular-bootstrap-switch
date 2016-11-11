@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-bootstrap-switch</artifactId>
-    <version>0.4.1-SNAPSHOT</version>
+    <version>0.4.1</version>
     <name>angular-bootstrap-switch</name>
     <description>WebJar for angular-bootstrap-switch</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/angular-bootstrap-switch</url>
         <connection>scm:git:https://github.com/webjars/angular-bootstrap-switch.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-bootstrap-switch.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-bootstrap-switch-0.4.1</tag>
     </scm>
     
     <dependencies>
